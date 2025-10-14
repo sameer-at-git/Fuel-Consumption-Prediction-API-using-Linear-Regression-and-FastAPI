@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+ipykernel
+scikit-learn
+joblib
+uvicorn
+fastapi
