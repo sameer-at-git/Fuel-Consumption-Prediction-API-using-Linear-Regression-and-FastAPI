@@ -14,4 +14,4 @@ app = FastAPI()
 def predict(data: InputData):
     input_features = [[data.feature1, data.feature2]]
     prediction = model.predict(input_features)[0]
-    return {'prediction': prediction}  
+    return {'prediction': float(prediction)}  
